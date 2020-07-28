@@ -93,7 +93,7 @@ namespace BankFormProject
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\BankFormProject\bin\Debug\click.wav");
+            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\WinForms-Bank\bin\Debug\click.wav");
             Simple.Play();
 
             if(!string.IsNullOrEmpty(TextBox_First_Name_REGISTER.Text) && !string.IsNullOrWhiteSpace(TextBox_First_Name_REGISTER.Text) && !string.IsNullOrEmpty(TextBox_Surname_REGISTER.Text) && !string.IsNullOrWhiteSpace(TextBox_Surname_REGISTER.Text) && !string.IsNullOrEmpty(TextBox_Middle_Name_REGISTER.Text) && !string.IsNullOrWhiteSpace(TextBox_Middle_Name_REGISTER.Text))
@@ -117,7 +117,7 @@ namespace BankFormProject
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\BankFormProject\bin\Debug\click.wav");
+            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\WinForms-Bank\bin\Debug\click.wav");
             Simple.Play();
 
             SqlConnection sqlconnection = new SqlConnection(@"Data Source=PC_OF_PAVLO\SQLEXPRESS;Initial Catalog=Bank;Integrated Security=True;");
@@ -153,7 +153,7 @@ namespace BankFormProject
         }
         private async void button3_Click(object sender, EventArgs e)
         {
-            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\BankFormProject\bin\Debug\click.wav");
+            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\WinForms-Bank\bin\Debug\click.wav");
             Simple.Play();
 
             SqlConnection sqlconnection = new SqlConnection(@"Data Source=PC_OF_PAVLO\SQLEXPRESS;Initial Catalog=Bank;Integrated Security=True;");
@@ -183,7 +183,7 @@ namespace BankFormProject
         }
         private async void Button_TRANSACTION_Click(object sender, EventArgs e)
         {
-            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\BankFormProject\bin\Debug\click.wav");
+            SoundPlayer Simple = new SoundPlayer(@"C:\Users\Pavlo\source\repos\WinForms-Bank\bin\Debug\click.wav");
             Simple.Play();
 
             SqlConnection sqlconnectionID1 = new SqlConnection(@"Data Source=PC_OF_PAVLO\SQLEXPRESS;Initial Catalog=Bank;Integrated Security=True;");
